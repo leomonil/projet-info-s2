@@ -23,6 +23,7 @@ Concernant la partie création de la map la fonction est  void ZoneDessinDessiner
 Cette fonction contient également un code pour modéliser graphiquement une pièce jaune représentant la pièce dont les coordonnées sont créer de façons aléatoire (voir partie 7).
 
 Pour le graphisme du personnage une image bmp de 30*20 en l'occurrence représentant mario est affiché à l’endroit du pointeur sur le tableau (gDonnées.Boule .X et .Y).
+
 Améliorations envisageable :
  Une des améliorations réalisables et que lorsqu’on appuie sur une touche (gauche, droite, haut, bas …) l’image de mario soit actualisé simplement en remplaçant l’image originale par une autre correspondant au mouvement.
 Une autre amélioration à réaliser serait de réaliser la création de la partie map en dehors de la boucle qui actualise en permanence le jeu afin de pouvoir réaliser des maps plus complexes et donc plus lourdes à faire tourner.
