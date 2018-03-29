@@ -18,6 +18,7 @@ Chaque fonction est écrite dans son fichier.cpp correspondant et est externalisé
 
 ### 2. Lecture de la carte
 Créer la carte se fait en excel, qui est ensuite converti en fichier texte. La carte est une matrice de 66 par 66 contenant 0 pour le vide, 1 pour les plateformes, 2 pour les échelles et 3 pour les bords du jeu. Le fichier .txt contenant la carte doit être insérer dans le fichier global (ne pas le mettre dans media par exemple) et doit être appelé fond. Il faudra sinon renommer le fichier à ouvrir dans la fonction void lire_fond(char* nom_fichier) qui permet d’ouvrir le fichier .txt et de créer une matrice 2x2 de la taille de la carte nommé gCarte[ ][ ]. 
+
 gCarte est déclaré en int et de LIGNE ligne et de COLONNE  colonne. LIGNE et COLONNE sont définis dans u4.h.  La fonction lire_fond permet de rentrer toute les valeurs du fichier .txt dans la matrice gCarte. Une fois cette matrice compléter, elle est externaliser et il suit donc la conception graphique de la map.
 
 ### 3. Graphisme de la carte et du joueur
